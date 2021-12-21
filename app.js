@@ -23,9 +23,8 @@ app.get('/register.html', (req,res) =>{
 app.use(express.static(path.join(__dirname,'./public'))); //__dirname ruta donde estoy parado
 
 
-app.listen(3002, () => {
+app.listen(process.env.PORT || 3000, function() {
     console.log("Servidor corriendo");
-});
-
+})
 
 
