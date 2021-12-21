@@ -1,0 +1,142 @@
+*{
+    box-sizing:border-box;
+    margin:0px;
+    padding:0px
+
+}
+body{
+    background-color: #ebebeb;
+    font-family: 'Roboto';
+}
+
+.main-header{
+    background-color:#EAC926;
+    padding: 10px;
+
+} 
+
+.blue-button{
+    background-color:#03264C;
+    color:#ffffff;
+    display:block;
+    max-width: 50; 
+    padding: 15px 0; 
+    border-radius:8px;
+    text-align:center;
+    font-size: 18px;
+    margin:auto;
+}
+.logo{
+    width: 200px;
+}
+.copy-header{
+    font-weight: 400;
+    text-align:center;
+}
+.main-navbar ul{
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+.main-navbar a{
+    text-decoration: none;
+    color:#222222;
+    display:inline-block;
+    padding:5px 0;
+    font-size: 17px;
+}
+
+
+.contenedor-articulos{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.caja-articulo{
+    width: 300px;
+    background-color: #FFF;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.imagen-articulo{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.precio-articulo{
+    width: 30%;
+    font-size: 21px;
+    text-align: right;
+    float: left;
+}
+.descuento-articulo{
+    width: 70%;
+    font-size: 12px;
+    color: #6ae52c;
+    text-align: left;
+    float: left;
+}
+
+.descripcion-articulo{
+    color: lightgrey;
+    display: none;
+    padding: 3px
+}
+
+.caja-articulo:hover {
+  box-shadow: 5px 10px #888888;
+}
+.caja-articulo:hover .descripcion-articulo {
+  display: block;
+}
+.contenedor-final{
+    background-color: #FFF;
+    text-align: center;
+    padding: 10px;
+}
+.contenedor-final i{
+    color: blue;
+}
+
+.contenedor-final i:hover{
+    color: green;
+}
+
+.input-busqueda{
+    width: 100%;
+    max-width: 500px;
+    height: 40px;
+    padding: 3px 5px 0px 5px;
+}
+.boton-busqueda{
+    height: 30px;
+    width: 25px;
+}
+.formulario-registro{
+    flex-direction: column;
+    justify-content: space-between;
+    height: 800px;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 30px;
+}
+.formulario-login{
+    flex-direction: column;
+    justify-content: space-between;
+    height: 200px;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 30px;
+}
+label {
+    float: right;
+}
+a{
+    color: #000;
+    margin-left: 15px;
+}
